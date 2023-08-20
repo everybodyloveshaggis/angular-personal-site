@@ -1,43 +1,32 @@
 {
   "name": "angular-personal-site",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "scripts": {
-    "heroku-postbuild": "nx build --prod",
-    "ng": "nx",
-    "start": "node server.js",
-    "watch": "nx build --watch --configuration development",
-    "test": "nx test"
-  },
-  "engines": { 
-    "node": "latest", 
-    "npm": "latest" 
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test"
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "latest",
-    "@angular/common": "latest",
-    "@angular/compiler": "latest",
-    "@angular/core": "latest",
-    "@angular/forms": "latest",
-    "@angular/platform-browser": "latest",
-    "@angular/platform-browser-dynamic": "latest",
-    "@angular/router": "latest",
+    "@angular/animations": "^16.2.0",
+    "@angular/common": "^16.2.0",
+    "@angular/compiler": "^16.2.0",
+    "@angular/core": "^16.2.0",
+    "@angular/forms": "^16.2.0",
+    "@angular/platform-browser": "^16.2.0",
+    "@angular/platform-browser-dynamic": "^16.2.0",
+    "@angular/router": "^16.2.0",
     "bootstrap": "^5.3.1",
-    "express": "^4.18.2",
-    "path": "^0.12.7",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "latest",
-    "@angular-devkit/core": "latest",
-    "@angular-devkit/schematics": "latest",
-    "@angular/cli": "latest",
-    "@angular/compiler-cli": "latest",
-    "@nx/angular": "latest",
-    "@nx/workspace": "latest",
-    "@schematics/angular": "latest",
+    "@angular-devkit/build-angular": "^16.2.0",
+    "@angular/cli": "~16.2.0",
+    "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
@@ -45,8 +34,6 @@
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
-    "nx": "latest",
-    "nx-cloud": "latest",
-    "typescript": "latest"
+    "typescript": "~5.1.3"
   }
 }
