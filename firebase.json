@@ -2,7 +2,7 @@
   "hosting": [
     {
       "target": "angular-personal-site",
-      "source": ".",
+      "source": "dist",
       "frameworksBackend": {}
     }
   ]
