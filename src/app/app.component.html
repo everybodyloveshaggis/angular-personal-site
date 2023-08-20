@@ -1,39 +1,20 @@
-<div>
-  <section>
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <p class="title">
-          Scott McMahon
-        </p>
-        <p class="subtitle">
-          Developer/<br>Site Reliability Engineer
-        </p>
-      </div>
+<div class="container">
+  <app-nav-bar></app-nav-bar>
+  <div class="p-5 text-center bg-body-tertiary rounded-3">
+    <h1 class="text-body-emphasis">Scott McMahon</h1>
+    <h4 class="text-body-emphasis">Support Developer & Site Reliability Engineer</h4>
+    
+    <p class="col-lg-8 mx-auto fs-5 text-muted">
+      Enthusiastic problem solver who loves working in cutting edge teams who are passionate about fixing and improving products.
+    </p>
+    <div class="d-inline-flex gap-2 mb-5">
+      <button class="d-inline-flex align-items-center btn btn-primary btn-lg px-4 rounded-pill" type="button">
+        Contact Me!
+      </button>
+      <button class="btn btn-outline-secondary btn-lg px-4 rounded-pill" type="button">
+        Download CV
+      </button>
     </div>
-  
-    <div class="hero-foot">
-      <nav class="tabs is-boxed is-fullwidth">
-        <div class="container">
-          <ul>
-            <li class="is-active">
-              <a href="/home">Overview</a>
-            </li>
-            <li>
-              <a href="/personal-experience">Personal Experience</a>
-            </li>
-            <li>
-              <a href="/professional-experience">Professional Experience</a>
-            </li>
-            <li> 
-              <a href="/working-with-disabilities">Working with Disabilities</a>
-            </li>
-            <li>
-              <a href="/contact-me">Contact Me!</a>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
-  </section>
-  <router-outlet></router-outlet>
+  </div>
+<app-summary></app-summary>
 </div>
