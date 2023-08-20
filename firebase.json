@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "angular-personal-site",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

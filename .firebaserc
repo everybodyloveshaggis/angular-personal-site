@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "delta-suprstate-382416": {
+      "hosting": {
+        "angular-personal-site": [
+          "delta-suprstate-382416"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "delta-suprstate-382416"
+  }
+}
