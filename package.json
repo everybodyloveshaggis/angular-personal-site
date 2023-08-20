@@ -12,9 +12,7 @@
   "engines": { 
     "node": "latest", 
     "npm": "latest" 
-  }
-
-
+  },
   "private": true,
   "dependencies": {
     "@angular/animations": "latest",
