@@ -2,7 +2,7 @@
   "name": "angular-personal-site",
   "version": "0.0.1",
   "scripts": {
-    "heroku-postbuild": "nx build — prod",
+    "heroku-postbuild": "nx build --prod",
     "ng": "nx",
     "start": "node server.js",
     "watch": "nx build --watch --configuration development",
