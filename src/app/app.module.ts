@@ -7,11 +7,13 @@ import { SummaryComponent } from './summary/summary.component';
 import { PersonalExperienceComponent } from './personal-experience/personal-experience.component';
 import { ProfessionalExperienceComponent } from './professional-experience/professional-experience.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
+import { JumbotronComponent } from './jumbotron/jumbotron.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent
-  , SummaryComponent, PersonalExperienceComponent, ProfessionalExperienceComponent, ProfessionalExperienceComponent, NavBarComponent],
+  , SummaryComponent, PersonalExperienceComponent, ProfessionalExperienceComponent, ProfessionalExperienceComponent, NavBarComponent, JumbotronComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule
