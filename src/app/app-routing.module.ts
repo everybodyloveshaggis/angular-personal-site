@@ -9,6 +9,7 @@ import { ProfessionalExperienceComponent } from './professional-experience/profe
 Routing
 */
 const routes: Routes = [
+  {    path: '',                        component:SummaryComponent,                     title:'Scott McMahon'  },
   {    path: 'home',                        component:SummaryComponent,                     title:'Scott McMahon'  },
   {    path: 'personal-experience',         component:PersonalExperienceComponent,          title:'Scott M: Personal Experience'  },
   {    path: 'professional-experience',     component:ProfessionalExperienceComponent,      title:'Scott M: Professional Experience'  },
