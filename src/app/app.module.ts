@@ -16,7 +16,7 @@ import { HomeComponent } from './home/home.component';
   , SummaryComponent, PersonalExperienceComponent, ProfessionalExperienceComponent, ProfessionalExperienceComponent, NavBarComponent, JumbotronComponent, HomeComponent],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
